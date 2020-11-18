@@ -579,3 +579,155 @@ footer {
 .social a:hover {
   color: var(--gray-dark);
 }
+
+/* ************************************* */
+/* ************************************* */
+/* 반응형  미디어 쿼리*/
+
+@media (max-width: 1200px) {
+  .slide_text {
+    text-align: center;
+  }
+
+  .slide_text h2 {
+    margin: 0 auto;
+  }
+
+  .slide_text p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
+/* @media (max-width: 992px) {}; 노트북정도 해상도*/
+
+@media (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+
+  .main_slide {
+    margin-bottom: 30px;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: initial;
+  }
+  p {
+    font-size: 13px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .logo {
+    width: 160px;
+  }
+
+  .hamburger {
+    right: 16px;
+  }
+
+  .slide_text h2 {
+    font-size: 30px;
+    width: 76%;
+  }
+
+  .slide_text p {
+    display: none;
+  }
+
+  .btns {
+    margin-top: 60px;
+  }
+
+  .btn {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+
+  .arrow span {
+    width: 30px;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  .title_area {
+    margin-bottom: 16px;
+  }
+
+  /* 슬라이드 */
+  .slide_02 .slick-dots {
+    display: none !important;
+  }
+
+  .slide_02 .slide {
+    border-radius: 6px;
+  }
+
+  .slide_02 .slide h3 {
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .view_all {
+    bottom: initial;
+    top: 4px;
+    font-size: 14px;
+  }
+
+  .section_02 .cards dl {
+    bottom: -26px;
+    left: 12px;
+  }
+
+  .section_02 .cards dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .section_02 .cards dl dd {
+    /* font-size: 12px; */
+    display: none;
+  }
+
+  .section_02 .cards .card:hover {
+    bottom: 20px;
+  }
+
+  .section_04 .daum_map {
+    height: 300px;
+  }
+
+  .section_05 .view_all {
+    top: 12px;
+  }
+
+  .card {
+    border-radius: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .slide_text h2 {
+    font-size: 26px;
+  }
+}
+/* ************************************* */
+/* ************************************* */
