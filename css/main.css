@@ -707,9 +707,19 @@ footer {
     display: none;
   }
 
-  .section_02 .cards .card:hover {
+  .section_02 .cards .card:hover dl {
     bottom: 20px;
   }
+
+  /* -------------- */
+  .section_03 .card i {
+    top: 130%;
+  }
+
+  .section_03 .cards .card:hover h4 {
+    top: -20%;
+  }
+  /* ----------------- */
 
   .section_04 .daum_map {
     height: 300px;
